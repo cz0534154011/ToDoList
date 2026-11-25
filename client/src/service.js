@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const apiUrl = "http://localhost:5079";
+const apiUrl = process.env.REACT_APP_API_URL;
 axios.defaults.baseURL = apiUrl;
 
 // Request Interceptor – הוספת JWT לכל בקשה
