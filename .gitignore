@@ -1,0 +1,17 @@
+# React
+client/node_modules/
+
+# .NET
+server/bin/
+server/obj/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local secrets
+/secrets/
+
+# Visual Studio
+.vs/
