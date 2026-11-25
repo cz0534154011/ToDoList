@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+.env
+.env.*
+secrets/
+Dockerfile
+.dockerignore
